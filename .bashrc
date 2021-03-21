@@ -27,9 +27,10 @@ shopt -s checkwinsize
 #shopt -s globstar
 
 # some more ls aliases
-alias ll='ls -alF'
-alias la='ls -A'
-alias l='ls -CF'
+alias ls='ls --color=auto'
+alias ll='ls -alF --color=auto'
+alias la='ls -A --color=auto'
+alias l='ls -CF --color=auto'
 alias install='sudo apt install'
 alias c='clear'
 alias mv='mv -i'
